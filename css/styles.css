@@ -18,8 +18,11 @@ li {
 img {
   display: block;
 }
+header {
+  border-bottom: 1px solid #ececec;
+}
 header > div {
-  height: 81px;
+  padding: 25px 0px;
   display: flex;
   align-items: center;
 }
@@ -251,7 +254,6 @@ footer {
   display: flex;
 }
 .footer-list {
-  padding-top: 45px;
   align-items: baseline;
 }
 .footer-social {

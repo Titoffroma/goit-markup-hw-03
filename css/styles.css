@@ -259,11 +259,12 @@ footer {
 .footer-social {
   margin-top: 20px;
 }
-.footer-list > li:not(:last-child) {
-  width: 25%;
+.footer-list > div:not(:last-child) {
+  width: calc((100% - 60px) / 4);
+  margin-right: 30px;
 }
-.footer-list > li:last-child {
-  width: 50%;
+.footer-list > div:last-child {
+  width: calc((100% - 60px) / 2);
 }
 .footer-logo {
   color: var(--main-color);
@@ -315,7 +316,7 @@ footer {
   display: none;
 }
 .secondari-nav {
-  padding: 93px 400px 0px;
+  padding: 0px 400px 50px;
 }
 .secondari-nav-list {
   display: flex;
@@ -344,7 +345,7 @@ footer {
   color: var(--white-color);
 }
 .portfolio {
-  padding: 50px 0px 94px;
+  padding: 94px 0px 94px;
 }
 .portfolio-list {
   display: flex;
